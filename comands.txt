@@ -2,6 +2,10 @@ git init -> creates a new repository in the current folder
 git clone -> clones a remote repository in the current folder
 git status -> list all information about untrecked files
 git status -s -> list only the untrecked files
+git add myfile -> add "myfile" into stage area
+git add * or git add . -> add all the untrecked files into stage area
+git commit -m "my commit message" -> saves in my repository git a current version of my files
+
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 
 git config --system --edit -> open the system configurations file
