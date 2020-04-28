@@ -1,0 +1,9 @@
+git init -> creates a new repository in the current folder
+git clone -> clones a remote repository in the current folder
+git status -> list all information about untrecked files
+git status -s -> list only the untrecked files
+git remote -v -> list all remotes repositories and urls
+git config --list -> list all git configurations 
+git config --system --edit -> open the system configurations file
+git config --global --edit -> open the user configurations file
+git config --edit -> open the local repository configurations
