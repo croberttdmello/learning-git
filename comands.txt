@@ -11,3 +11,8 @@ git config --list -> list all git configurations
 git config --system --edit -> open the system configurations file
 git config --global --edit -> open the user configurations file
 git config --edit -> open the local repository configurations
+
+OBS: State of my files -> untrecked, unstaged, staged. 
+Untrecked -> The git dont know my file.
+Unsteged -> The git know my file, but have changes not added to the stage area.
+Staged -> All changes have been added to the stage area, my file is ready to be commited. 
