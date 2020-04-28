@@ -5,6 +5,7 @@ git status -s -> list only the untrecked files
 git add myfile -> add "myfile" into stage area
 git add * OR git add . OR git add --all  -> add all the untrecked files into stage area
 git commit -m "my commit message" -> saves in my repository git a current version of my files
+git commit --amend --no-edit  -> joins the current commit with the last commit
 
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 
