@@ -6,6 +6,11 @@ git add myfile -> add "myfile" into stage area
 git add * OR git add . OR git add --all  -> add all the untrecked files into stage area
 git commit -m "my commit message" -> saves in my repository git a current version of my files
 git commit --amend --no-edit  -> joins the current commit with the last commit
+git stash -> saves changes after the last commit in a temporary area
+git stash -> list all stashs in your repository
+git stash apply -> return my modificate files for my unstaged area but don't remove my stash of the stack
+git stash pop -> return my modificate files for my unstaged area and remove my stash of the stack
+git stash clear -> Clean all my stashs
 
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 

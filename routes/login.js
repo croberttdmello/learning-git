@@ -1,2 +1,4 @@
 const express = require('express');
-console.log('login 2');
+const app = express();
+
+app.listen(3003);
