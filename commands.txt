@@ -11,6 +11,15 @@ git stash -> list all stashs in your repository
 git stash apply -> return my modificate files for my unstaged area but don't remove my stash of the stack
 git stash pop -> return my modificate files for my unstaged area and remove my stash of the stack
 git stash clear -> Clean all my stashs
+git log -> log information about all my commits
+git log --pretty=format:'%H' -> log only hashes commits
+git log --pretty=format:'%cn' -> log only the name of the each commit author 
+git tag 1.0 -> Create a tag 1.0 for the project
+git tag -d 1.0 -> Remove the tag 1.0 of the project
+git tag 1.0 -m "Release 1.0" -> Create a annoteded tag
+git tag -a "0.1.beta" -m "Release 0.1.beta" e243728 -> Add tag a previous commit
+git push origin master --follow-tags -> Push to the server only annoteded tags
+
 
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 
