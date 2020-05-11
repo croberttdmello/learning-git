@@ -19,6 +19,7 @@ git tag -d 1.0 -> Remove the tag 1.0 of the project
 git tag 1.0 -m "Release 1.0" -> Create a annoteded tag
 git tag -a "0.1.beta" -m "Release 0.1.beta" e243728 -> Add tag a previous commit
 git push origin master --follow-tags -> Push to the server only annoteded tags
+git push --delete origin "0.2.beta" -> Delete "0.2.beta" tag from my remote server
 
 
 git remote -v -> list all remotes repositories and urls
