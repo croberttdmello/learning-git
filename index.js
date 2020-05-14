@@ -1,3 +1,2 @@
-for(let item of object) {
-  
-}
+console.log('Log');
+
