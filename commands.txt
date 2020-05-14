@@ -25,8 +25,7 @@ git reset test.js -> Remove test.js from stage area (like "git add" reverse)
 git reset 1b96402 --soft -> Remove my commit and return my files to the previous state. 
 git reset HEAD~1/1b96402 --mixed -> Remove my commit and return my files to the state before "git add".
 git reset 1b96402 --hard -> Remove my commit, delete untrecked files and remove all changes in unstaged files. 
-git reset --hard -> 
-
+git reset --hard -> return my files to the intial state of my commit.
 
 
 git remote -v -> list all remotes repositories and urls
