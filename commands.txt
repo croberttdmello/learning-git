@@ -27,6 +27,9 @@ git reset HEAD~1/1b96402 --mixed -> Remove my commit and return my files to the 
 git reset 1b96402 --hard -> Remove my commit, delete untrecked files and remove all changes in unstaged files. 
 git reset --hard -> return my files to the intial state of my commit.
 
+git revert ab5ec25 -> Generates a new commit that reverses the commit passed as a parameter.
+git revert HEAD~1/ab5ec25 --no-edit -> Generates a new commit that reverses the commit passed as a parameter, without confirmation commit message. 
+git revert ab5ec25 --no-commit -> Reverses the changes to my files without generating a new commit, keeping them in the stage area. (Not generate random message in my commits project)
 
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 
