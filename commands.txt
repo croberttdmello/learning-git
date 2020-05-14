@@ -21,12 +21,13 @@ git tag -a "0.1.beta" -m "Release 0.1.beta" e243728 -> Add tag a previous commit
 git push origin master --follow-tags -> Push to the server only annoteded tags
 git push --delete origin "0.2.beta" -> Delete "0.2.beta" tag from my remote server
 
-
-
 git reset test.js -> Remove test.js from stage area (like "git add" reverse)
 git reset 1b96402 --soft -> Remove my commit and return my files to the previous state. 
 git reset HEAD~1/1b96402 --mixed -> Remove my commit and return my files to the state before "git add".
 git reset 1b96402 --hard -> Remove my commit, delete untrecked files and remove all changes in unstaged files. 
+git reset --hard -> 
+
+
 
 git remote -v -> list all remotes repositories and urls
 git config --list -> list all git configurations 
